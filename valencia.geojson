@@ -306,7 +306,8 @@
         "stroke-opacity": 1,
         "name": "Valencia St Bikeway",
         "bike": "true",
-        "emergency": "true"
+        "emergency": "true",
+        "direction": "two-way"
       },
       "geometry": {
         "type": "LineString",
@@ -494,7 +495,7 @@
         "stroke-opacity": 1,
         "name": "12 Folsom-Pacific",
         "SFMTA": "true",
-        "driection": "northbound"
+        "direction": "northbound"
       },
       "geometry": {
         "type": "LineString",

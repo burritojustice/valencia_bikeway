@@ -356,7 +356,7 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "name": "14th to Duboce",
-        "direction": "southbound"
+        "direction": "northbound"
       },
       "geometry": {
         "type": "LineString",

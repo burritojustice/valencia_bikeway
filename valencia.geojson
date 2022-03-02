@@ -1,0 +1,490 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "16th to 15th",
+        "direction": "northbound"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42193639278412,
+            37.76502390036364
+          ],
+          [
+            -122.42208123207094,
+            37.76651238094464
+          ],
+          [
+            -122.42245137691498,
+            37.76649117772791
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "16th to 17th",
+        "direction": "southbound"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.421917617321,
+            37.764782178467456
+          ],
+          [
+            -122.42180228233337,
+            37.76334031214955
+          ],
+          [
+            -122.42214024066925,
+            37.76331910802338
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "16th to 17th",
+        "direction": "northbound"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42158234119414,
+            37.76183480408589
+          ],
+          [
+            -122.42173254489896,
+            37.76329790389112
+          ],
+          [
+            -122.42204904556272,
+            37.76328094058099
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "18th to 19th",
+        "direction": "southbound"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42160379886627,
+            37.761576108065874
+          ],
+          [
+            -122.42149114608765,
+            37.76012993823887
+          ],
+          [
+            -122.42183446884154,
+            37.760112974202144
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "20th to 19th",
+        "direction": "northbound"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42133021354675,
+            37.758594677160836
+          ],
+          [
+            -122.42149114608765,
+            37.76007056409337
+          ],
+          [
+            -122.42181837558746,
+            37.76005360004301
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "20th to 21st",
+        "direction": "southbound"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42130339145659,
+            37.758399586454864
+          ],
+          [
+            -122.4211800098419,
+            37.75694063095218
+          ],
+          [
+            -122.42153942584991,
+            37.75691518379859
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "22nd to 21st",
+        "direction": "northbound"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42102444171904,
+            37.75540530368436
+          ],
+          [
+            -122.42117464542389,
+            37.756877013051756
+          ],
+          [
+            -122.42151260375975,
+            37.75686004826908
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "22nd to 23rd",
+        "direction": "southbound"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4209976196289,
+            37.755197480694285
+          ],
+          [
+            -122.42086887359618,
+            37.75373422066782
+          ],
+          [
+            -122.42114782333373,
+            37.75371725516449
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "24th to 23rd",
+        "direction": "northbound"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42071866989136,
+            37.75223700002049
+          ],
+          [
+            -122.4208527803421,
+            37.75366211725173
+          ],
+          [
+            -122.42113173007965,
+            37.75364939311218
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "24th to 25th",
+        "direction": "southbound"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42070257663725,
+            37.75199523633841
+          ],
+          [
+            -122.4205631017685,
+            37.750531912981664
+          ],
+          [
+            -122.42074012756346,
+            37.75052767142264
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "26th to 25th",
+        "direction": "northbound"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42041826248168,
+            37.74900917766359
+          ],
+          [
+            -122.42056846618652,
+            37.750468289570584
+          ],
+          [
+            -122.42071866989136,
+            37.7504640480079
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Valencia St Bikeway",
+        "bike": "true",
+        "emergency": "true"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42033243179321,
+            37.74902190260108
+          ],
+          [
+            -122.42258548736572,
+            37.77235999607518
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "14th to 15th",
+        "direction": "southbound"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42224752902985,
+            37.76804747768418
+          ],
+          [
+            -122.42209732532501,
+            37.76656326864002
+          ],
+          [
+            -122.42245674133301,
+            37.766544185758356
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "14th to Duboce",
+        "direction": "southbound"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42225289344788,
+            37.7682425429438
+          ],
+          [
+            -122.42240846157074,
+            37.76984545102542
+          ],
+          [
+            -122.42266058921814,
+            37.76982848921704
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "Market-Duboce",
+        "direction": "southbound"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42266058921814,
+            37.772300631747626
+          ],
+          [
+            -122.42241382598877,
+            37.76989845665157
+          ],
+          [
+            -122.42266327142715,
+            37.76988785552939
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "26th to Cesar Chavez",
+        "direction": "southbound"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42039412260056,
+            37.748854357415354
+          ],
+          [
+            -122.42034047842024,
+            37.748201139651215
+          ],
+          [
+            -122.42051482200623,
+            37.74820326049744
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "17th to Sycamore (SFPD only)",
+        "direction": "southbound"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42178618907927,
+            37.76328518140887
+          ],
+          [
+            -122.42172181606293,
+            37.762614067367096
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "33 Ashbury/18th St",
+        "direction": "two-way",
+        "SFMTA": "true",
+        "SFPD": "true"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.421735227108,
+            37.761696974351764
+          ],
+          [
+            -122.42159038782118,
+            37.76170333572977
+          ],
+          [
+            -122.42190152406693,
+            37.76491470153467
+          ],
+          [
+            -122.42175802588463,
+            37.76492424318635
+          ]
+        ]
+      }
+    }
+  ]
+}

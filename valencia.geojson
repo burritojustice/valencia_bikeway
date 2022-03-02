@@ -485,6 +485,70 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "12 Folsom-Pacific",
+        "SFMTA": "true",
+        "driection": "northbound"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.419935464859,
+            37.748182052032426
+          ],
+          [
+            -122.42024660110474,
+            37.74819053541917
+          ],
+          [
+            -122.42030560970305,
+            37.74889889478022
+          ],
+          [
+            -122.41998910903929,
+            37.74891161973669
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "name": "27 Bryant",
+        "SFMTA": "true",
+        "direction": "southbound"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42009639739989,
+            37.752139446349126
+          ],
+          [
+            -122.4206703901291,
+            37.75210975607577
+          ],
+          [
+            -122.42028951644897,
+            37.74815236017122
+          ],
+          [
+            -122.41996228694916,
+            37.74815236017122
+          ]
+        ]
+      }
     }
   ]
 }

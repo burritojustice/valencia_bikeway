@@ -6,7 +6,7 @@ https://burritojustice.github.io/valencia_bikeway/#18/37.75774/-122.42144
 
 https://streetmix.net/burritojustice/6/valencia-st-15th-19th
 
-[streetmix](!images/valencia-st-15th-19th.png)
+![streetmix](images/valencia-st-15th-19th.png)
 
 ## Sources
 

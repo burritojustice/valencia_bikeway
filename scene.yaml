@@ -1,0 +1,192 @@
+import:
+    # - https://raw.githubusercontent.com/sensescape/xyz-studio-dark/master/scene.yaml
+    # - https://raw.githubusercontent.com/sensescape/xyz-pixel-dark/master/scene.yaml
+    - https://raw.githubusercontent.com/sensescape/xyz-pixel/master/scene.yaml
+    # - https://raw.githubusercontent.com/sensescape/xyz-pixel-pastel/master/scene.yaml
+    # - https://www.nextzen.org/carto/refill-style/refill-style.zip
+    # - https://www.nextzen.org/carto/refill-style/themes/color-gray-gold.zip
+    # # - https://www.nextzen.org/carto/refill-style/themes/color-inverted.zip
+    # - https://s3.amazonaws.com/xyz-demo/data/demo.yaml
+    # - https://www.nextzen.org/carto/refill-style/11/themes/label-4.zip
+    # # - https://www.nextzen.org/carto/refill-style/themes/terrain-shading.zip
+    # - https://www.nextzen.org/carto/refill-style/11/themes/terrain-shading-dark.zip
+
+global:
+    token: AGbk_eg5Qdi75xOs4sfsLAA
+    block_line: 50
+    block: 49
+    point_zoom: 14
+
+sources:
+    mapzen:
+        type: MVT
+        url: https://xyz.api.here.com/tiles/osmbase/512/all/{z}/{x}/{y}.mvt
+        url_params:
+            access_token: AJW8Q_PjRZSsPfpbcT3yrAA
+
+    _valencia_bikeway:
+        type: GeoJSON
+        url: https://burritojustice.github.io/valencia_bikeway/valencia.geojson
+    _sf_curbs:
+        type: GeoJSON
+        url: https://xyz.api.here.com/hub/spaces/FgCvp7xq/tile/web/{z}_{x}_{y}
+        url_params:
+            mode: viz
+            access_token: ACN_MslwQo-f7ZklUWXuSwA          
+            clip: true
+            tags: curbs
+            
+styles:
+    _polygons:
+        base: polygons
+        blend: inlay
+        blend_order: 0
+    _points:
+        base: points
+        blend: overlay
+        blend_order: 1
+    _text:
+        base: text
+        blend: overlay
+        blend_order: 11
+    _lines:
+        base: lines
+        blend: inlay
+        blend_order: 1
+    _lines_low:
+        base: lines
+        blend: inlay
+        blend_order: -2
+    _polygons_inlay:
+        base: polygons
+        blend: inlay
+        blend_order: 0
+    _polygons_overlay:
+        base: polygons
+        blend: overlay
+        blend_order: 1
+    _ants:
+        base: lines
+        blend: overlay
+        texcoords: true
+        animated: true
+        shaders:
+            blocks:
+                color: |
+                    color.a = step(.2,fract(u_time-v_texcoord.y*.45));
+
+    arrows:
+        base: lines
+        blend: overlay
+        texcoords: true
+        animated: true
+        shaders:
+            global:
+                float shape(vec2 st, int N){
+                    st = st *2.-1.;
+                    float a = atan(st.x,st.y)+PI;
+                    float r = TWO_PI/float(N);
+                    return cos(floor(.5+a/r)*r-a)*length(st);
+                }
+            blocks:
+                color: |
+                    color.a = step(.5,fract(u_time-v_texcoord.y*.5));
+                    
+layers:
+    
+    # places:
+    #     enabled: false
+    # buildings:
+    #     enabled: false
+    roads:
+        draw:
+            lines:
+                visible:
+                    false
+    _valencia:
+        # enabled: false
+        data: {source: _valencia_bikeway}
+        _one_way:
+            filter: 
+                any: 
+                    direction:
+                        - northbound
+                        - southbound
+            # enabled: false
+            _cars:
+                filter: {kind: auto}
+                draw:
+                    _ants:
+                        color: |
+                            function(){
+                                var color = 'white'
+                                if (feature.direction == 'n')
+                                    {
+                                    color = 'blue'
+                                    }
+                                else if (feature.direction == 's'){
+                                    color = 'orange'
+                                    }
+
+                                return color
+                                }
+                        # color: red
+                        width: [[14,.1px],[16,2px],[18,4px]]
+                        order: 1000
+            _bikes:
+                filter: {kind: bike}
+                draw:
+                    _ants:
+                        color: green
+                        width: [[14,.1px],[16,2px],[18,4px]]
+                        order: 1000
+            _muni:
+                filter: {kind: transit}
+                draw:
+                    _ants:
+                        color: red
+                        width: [[14,.1px],[16,2px],[18,4px]]
+                        order: 1000
+        _two_way:
+            # enabled: false
+            filter: {direction: [two-way]}
+            draw:
+                lines:
+                    # color: [.5,.5,.5,0.75]
+                    # color: [.8,.8,.8,0.3]
+                    color: |
+                        function(){
+                            var color = "black"
+                            if (feature.bike){
+                                color = 'green'
+                                }
+                            if (feature.SFMTA){
+                                color = 'red'
+                                }
+                            return color
+                            }
+                    # color: red
+                    width: [[14,.1px],[16,2px],[18,5px]]
+                    order: 1001
+
+        labels:
+            filter: {$zoom: {min: 17}}
+            draw:
+                text:
+                    repeat_distance: 512
+                    optional: true
+                    # text_source: pop100
+                    font:
+                        fill: black
+                        size: 10px
+                        stroke:
+                            color: white
+                            width: 3px
+    _curbs:
+        data: {source: _sf_curbs}
+        draw: 
+            lines:
+                color: [0,0,0,.2]
+                width: [[14,.1px],[16,2px],[18,5px]]
+                order: 1000
+             

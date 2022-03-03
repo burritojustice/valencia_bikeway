@@ -75,8 +75,8 @@
         attribution: '<a href="https://www.nextzen.org/tangram" target="_blank">Nextzen</a> | &copy; OSM contributors | @<a href="https://github.com/burritojustice/sf-gondola-map">burritojustice</a>'
       });
       layer.addTo(map);
-      map.setView([37.7689,-122.4289], 12); 
-
+      map.setView([37.75771,-122.42112], 18); 
+      
       var hash = new L.Hash(map);
       scene = layer.scene
       scene.subscribe({
@@ -98,7 +98,7 @@
           div.innerHTML += '<i class="line" style="background:red"></i><span>Muni</span><br>';
 
 
-          div.innerHTML += '<i class="icon" style="background-image: url(../../images/frisc_red_ball_logo.png);background-repeat: no-repeat;"></i><span><a href="https://thefrisc.com/to-recover-from-a-major-earthquake-sf-needs-housing-now-not-just-later-e2de82084be">Learn more!</a></span><br>';
+          div.innerHTML += '<i class="icon" style="background-image: url(images/burrito_justice_small.jpg);background-repeat: no-repeat;"></i><span><a href="https://github.com/burritojustice/valencia_bikeway">Learn more!</a></span><br>';
           
           return div;
         };

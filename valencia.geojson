@@ -4,7 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "16th to 15th",
+        "name": "16th to 15th 🚗",
         "direction": "n",
         "auto": "true",
         "kind": "auto"
@@ -13,15 +13,15 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.42193639278412,
+            -122.42194712162016,
             37.76502390036364
           ],
           [
-            -122.42208123207094,
+            -122.42209196090698,
             37.76651238094464
           ],
           [
-            -122.42245137691498,
+            -122.42246210575104,
             37.76649117772791
           ]
         ]
@@ -30,7 +30,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "16th to 17th",
+        "name": "16th to 17th 🚗",
         "direction": "s",
         "auto": "true",
         "kind": "auto"
@@ -56,7 +56,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "16th to 17th",
+        "name": "16th to 17th 🚗",
         "direction": "n",
         "auto": "true",
         "kind": "auto"
@@ -82,7 +82,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "18th to 19th",
+        "name": "18th to 19th 🚗",
         "direction": "s",
         "auto": "true",
         "kind": "auto"
@@ -108,7 +108,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "20th to 19th",
+        "name": "20th to 19th 🚗",
         "direction": "n",
         "auto": "true",
         "kind": "auto"
@@ -134,7 +134,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "20th to 21st",
+        "name": "20th to 21st 🚗",
         "direction": "s",
         "auto": "true",
         "kind": "auto"
@@ -160,7 +160,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "22nd to 21st",
+        "name": "22nd to 21st 🚗",
         "direction": "n",
         "auto": "true",
         "kind": "auto"
@@ -186,7 +186,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "22nd to 23rd",
+        "name": "22nd to 23rd 🚗",
         "direction": "s",
         "auto": "true",
         "kind": "auto"
@@ -212,7 +212,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "24th to 23rd",
+        "name": "24th to 23rd 🚗",
         "direction": "n",
         "auto": "true",
         "kind": "auto"
@@ -238,7 +238,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "24th to 25th",
+        "name": "24th to 25th 🚗",
         "direction": "s",
         "auto": "true",
         "kind": "auto"
@@ -264,7 +264,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "26th to 25th",
+        "name": "26th to 25th 🚗",
         "direction": "n",
         "auto": "true",
         "kind": "auto"
@@ -290,7 +290,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Valencia St Bikeway",
+        "name": "Valencia St Bikeway 🚲",
         "bike": "true",
         "emergency": "true",
         "direction": "n",
@@ -314,7 +314,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "14th to 15th",
+        "name": "14th to 15th 🚗",
         "direction": "s",
         "auto": "true",
         "kind": "auto"
@@ -340,7 +340,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "14th to Duboce",
+        "name": "14th to Duboce 🚗",
         "direction": "n",
         "auto": "true",
         "kind": "auto"
@@ -358,7 +358,7 @@
           ],
           [
             -122.42266058921814,
-            37.76982848921704
+            37.76983166955641
           ]
         ]
       }
@@ -366,7 +366,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Market-Duboce",
+        "name": "Market-Duboce 🚗",
         "direction": "s",
         "auto": "true",
         "kind": "auto"
@@ -392,7 +392,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "26th to Cesar Chavez",
+        "name": "26th to Cesar Chavez 🚗",
         "direction": "s",
         "auto": "true",
         "kind": "auto"
@@ -421,7 +421,7 @@
         "stroke": "#555555",
         "stroke-width": 2,
         "stroke-opacity": 1,
-        "name": "17th to Sycamore (SFPD only)",
+        "name": "17th to Sycamore (SFPD only) 🚔",
         "direction": "s",
         "SFPD": "true",
         "emergency": "true",
@@ -432,12 +432,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.42181569337845,
-            37.763276699752815
+            -122.42178618907927,
+            37.7632152077173
           ],
           [
-            -122.4217513203621,
-            37.7626055856341
+            -122.42164671421051,
+            37.76175210627625
           ]
         ]
       }
@@ -445,7 +445,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "33 Ashbury/18th St",
+        "name": "33 Ashbury/18th St 🚌",
         "direction": "two-way",
         "SFMTA": "true",
         "auto": "false",
@@ -476,7 +476,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "12 Folsom-Pacific",
+        "name": "12 Folsom-Pacific 🚌",
         "SFMTA": "true",
         "direction": "n",
         "auto": "false",
@@ -507,7 +507,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "27 Bryant",
+        "name": "27 Bryant 🚌",
         "SFMTA": "true",
         "direction": "s",
         "auto": "false",
@@ -538,7 +538,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Valencia St Bikeway SB",
+        "name": "Valencia St Bikeway 🚲 SB",
         "direction": "s",
         "bike": "true",
         "emergency": "true",

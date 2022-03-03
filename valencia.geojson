@@ -418,12 +418,15 @@
     {
       "type": "Feature",
       "properties": {
+        "stroke": "#555555",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
         "name": "17th to Sycamore (SFPD only)",
         "direction": "s",
         "SFPD": "true",
         "emergency": "true",
         "auto": "false",
-        "kind": "transit"
+        "kind": "emergency"
       },
       "geometry": {
         "type": "LineString",

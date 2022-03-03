@@ -72,7 +72,7 @@
       var map = L.map('map');
       var layer = Tangram.leafletLayer({
         scene: 'scene.yaml',
-        attribution: '<a href="https://www.nextzen.org/tangram" target="_blank">Nextzen</a> | &copy; OSM contributors | @<a href="https://github.com/burritojustice/sf-gondola-map">burritojustice</a>'
+        attribution: '<a href="https://www.nextzen.org/" target="_blank">Nextzen/tangram.js</a> | &copy; OSM contributors | @<a href="https://github.com/burritojustice/valencia-bikeway">burritojustice</a>'
       });
       layer.addTo(map);
       map.setView([37.75771,-122.42112], 18); 
@@ -93,11 +93,10 @@
 //           div.innerHTML += '<i style="background:' + x.config.global.plasma[7] + '"></i><span>120K+/sq.mi</span><br>';
 //           div.innerHTML += '<i class="dot" style="background:red; border-color:light-grey"></i><span>Non-Compliant</span><br>';
           div.innerHTML += '<i class="line" style="background:green"></i><span>bikeway</span><br>';
-          div.innerHTML += '<i class="line" style="background:orange"></i><span>southbound one-way</span><br>';
-          div.innerHTML += '<i class="line" style="background:blue"></i><span>northbound one-way</span><br>';
+//           div.innerHTML += '<i class="line" style="background:orange"></i><span>southbound one-way</span><br>';
+          div.innerHTML += '<i class="line" style="background:blue"></i><span>autos alternating one-way</span><br>';
           div.innerHTML += '<i class="line" style="background:red"></i><span>Muni</span><br>';
-
-
+          div.innerHTML += '<i class="line" style="background:black"></i><span>SFPD</span><br>';
           div.innerHTML += '<i class="icon" style="background-image: url(images/burrito_justice_small.jpg);background-repeat: no-repeat;"></i><span><a href="https://github.com/burritojustice/valencia_bikeway">Learn more!</a></span><br>';
           
           return div;

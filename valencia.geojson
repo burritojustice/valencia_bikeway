@@ -92,7 +92,8 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "name": "18th to 19th",
-        "direction": "southbound"
+        "direction": "southbound",
+        "auto": "true"
       },
       "geometry": {
         "type": "LineString",
@@ -315,7 +316,7 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "name": "Valencia St Bikeway",
-        "bike": "false",
+        "bike": "true",
         "emergency": "true",
         "direction": "northbound",
         "auto": "false"
@@ -342,7 +343,7 @@
         "stroke-opacity": 1,
         "name": "14th to 15th",
         "direction": "southbound",
-        "atuo": "true"
+        "auto": "true"
       },
       "geometry": {
         "type": "LineString",
@@ -455,7 +456,8 @@
         "name": "17th to Sycamore (SFPD only)",
         "direction": "southbound",
         "SFPD": "true",
-        "emergency": "true"
+        "emergency": "true",
+        "auto": "false"
       },
       "geometry": {
         "type": "LineString",
@@ -479,7 +481,8 @@
         "stroke-opacity": 1,
         "name": "33 Ashbury/18th St",
         "direction": "two-way",
-        "SFMTA": "true"
+        "SFMTA": "true",
+        "auto": "false"
       },
       "geometry": {
         "type": "LineString",
@@ -511,7 +514,8 @@
         "stroke-opacity": 1,
         "name": "12 Folsom-Pacific",
         "SFMTA": "true",
-        "direction": "northbound"
+        "direction": "northbound",
+        "auto": "false"
       },
       "geometry": {
         "type": "LineString",
@@ -543,7 +547,8 @@
         "stroke-opacity": 1,
         "name": "27 Bryant",
         "SFMTA": "true",
-        "direction": "southbound"
+        "direction": "southbound",
+        "auto": "false"
       },
       "geometry": {
         "type": "LineString",

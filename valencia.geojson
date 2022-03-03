@@ -8,7 +8,8 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "name": "16th to 15th",
-        "direction": "northbound"
+        "direction": "northbound",
+        "auto": "true"
       },
       "geometry": {
         "type": "LineString",
@@ -35,7 +36,8 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "name": "16th to 17th",
-        "direction": "southbound"
+        "direction": "southbound",
+        "auto": "true"
       },
       "geometry": {
         "type": "LineString",
@@ -62,7 +64,8 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "name": "16th to 17th",
-        "direction": "northbound"
+        "direction": "northbound",
+        "auto": "true"
       },
       "geometry": {
         "type": "LineString",
@@ -116,7 +119,8 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "name": "20th to 19th",
-        "direction": "northbound"
+        "direction": "northbound",
+        "auto": "true"
       },
       "geometry": {
         "type": "LineString",
@@ -143,7 +147,8 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "name": "20th to 21st",
-        "direction": "southbound"
+        "direction": "southbound",
+        "auto": "true"
       },
       "geometry": {
         "type": "LineString",
@@ -170,7 +175,8 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "name": "22nd to 21st",
-        "direction": "northbound"
+        "direction": "northbound",
+        "auto": "true"
       },
       "geometry": {
         "type": "LineString",
@@ -197,7 +203,8 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "name": "22nd to 23rd",
-        "direction": "southbound"
+        "direction": "southbound",
+        "auto": "true"
       },
       "geometry": {
         "type": "LineString",
@@ -224,7 +231,8 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "name": "24th to 23rd",
-        "direction": "northbound"
+        "direction": "northbound",
+        "auto": "true"
       },
       "geometry": {
         "type": "LineString",
@@ -251,7 +259,8 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "name": "24th to 25th",
-        "direction": "southbound"
+        "direction": "southbound",
+        "auto": "true"
       },
       "geometry": {
         "type": "LineString",
@@ -279,7 +288,7 @@
         "stroke-opacity": 1,
         "name": "26th to 25th",
         "direction": "northbound",
-        "cars": "true"
+        "auto": "true"
       },
       "geometry": {
         "type": "LineString",
@@ -308,14 +317,15 @@
         "name": "Valencia St Bikeway",
         "bike": "true",
         "emergency": "true",
-        "direction": "northbound"
+        "direction": "northbound",
+        "auto": "true"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
             -122.42020905017853,
-            37.74820326049744
+            37.74822022726506
           ],
           [
             -122.4225318431854,
@@ -331,7 +341,8 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "name": "14th to 15th",
-        "direction": "southbound"
+        "direction": "southbound",
+        "atuo": "true"
       },
       "geometry": {
         "type": "LineString",
@@ -358,7 +369,8 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "name": "14th to Duboce",
-        "direction": "northbound"
+        "direction": "northbound",
+        "auto": "true"
       },
       "geometry": {
         "type": "LineString",
@@ -385,7 +397,8 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "name": "Market-Duboce",
-        "direction": "southbound"
+        "direction": "southbound",
+        "auto": "true"
       },
       "geometry": {
         "type": "LineString",
@@ -413,7 +426,7 @@
         "stroke-opacity": 1,
         "name": "26th to Cesar Chavez",
         "direction": "southbound",
-        "cars": "true"
+        "auto": "true"
       },
       "geometry": {
         "type": "LineString",
@@ -440,7 +453,9 @@
         "stroke-width": 2,
         "stroke-opacity": 1,
         "name": "17th to Sycamore (SFPD only)",
-        "direction": "southbound"
+        "direction": "southbound",
+        "SFPD": "true",
+        "emergency": "true"
       },
       "geometry": {
         "type": "LineString",
@@ -464,8 +479,7 @@
         "stroke-opacity": 1,
         "name": "33 Ashbury/18th St",
         "direction": "two-way",
-        "SFMTA": "true",
-        "SFPD": "true"
+        "SFMTA": "true"
       },
       "geometry": {
         "type": "LineString",
@@ -503,20 +517,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.42000386118887,
-            37.74817038737409
+            -122.4199891090393,
+            37.74818841457258
           ],
           [
-            -122.4203149974346,
-            37.748178870762175
+            -122.42032438516617,
+            37.74818417287921
           ],
           [
-            -122.42037400603293,
-            37.74888723023488
+            -122.42039278149602,
+            37.74890207601953
           ],
           [
-            -122.42005750536916,
-            37.74889995519336
+            -122.42007628083225,
+            37.74891480097547
           ]
         ]
       }
@@ -535,20 +549,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.42014199495314,
-            37.75214474818241
+            -122.42009639739989,
+            37.75214686891561
           ],
           [
-            -122.42071598768234,
-            37.75211505791117
+            -122.4206703901291,
+            37.75211717864521
           ],
           [
-            -122.42033511400221,
-            37.74815766229017
+            -122.42028415203094,
+            37.74813327253989
           ],
           [
-            -122.42000788450241,
-            37.74815766229017
+            -122.4199515581131,
+            37.748137514236156
           ]
         ]
       }
@@ -562,7 +576,8 @@
         "name": "Valencia St Bikeway",
         "direction": "southbound",
         "bike": "true",
-        "emergency": "true"
+        "emergency": "true",
+        "auto": "false"
       },
       "geometry": {
         "type": "LineString",
@@ -573,7 +588,7 @@
           ],
           [
             -122.4202412366867,
-            37.748201139651215
+            37.748218106419316
           ]
         ]
       }

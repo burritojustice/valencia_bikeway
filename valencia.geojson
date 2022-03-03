@@ -8,7 +8,7 @@
         "stroke-width": 3,
         "stroke-opacity": 1,
         "name": "🚙 16th to 15th 🚗",
-        "direction": "n",
+        "direction": "N",
         "auto": "true",
         "kind": "auto"
       },
@@ -37,7 +37,7 @@
         "stroke-width": 3,
         "stroke-opacity": 1,
         "name": "🚙 16th to 17th 🚗",
-        "direction": "s",
+        "direction": "S",
         "auto": "true",
         "kind": "auto"
       },
@@ -66,7 +66,7 @@
         "stroke-width": 3,
         "stroke-opacity": 1,
         "name": "🚙 16th to 17th 🚗",
-        "direction": "n",
+        "direction": "N",
         "auto": "true",
         "kind": "auto"
       },
@@ -95,7 +95,7 @@
         "stroke-width": 3,
         "stroke-opacity": 1,
         "name": "🚙 18th to 19th 🚗",
-        "direction": "s",
+        "direction": "S",
         "auto": "true",
         "kind": "auto"
       },
@@ -103,16 +103,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.42156893014908,
-            37.76157822852873
+            -122.42159038782118,
+            37.761588830842115
           ],
           [
-            -122.42145627737045,
-            37.76011509470696
+            -122.42145895957947,
+            37.76012940811279
           ],
           [
-            -122.42179423570632,
-            37.76009707041422
+            -122.42179557681084,
+            37.76010979344485
           ]
         ]
       }
@@ -124,7 +124,7 @@
         "stroke-width": 3,
         "stroke-opacity": 1,
         "name": "🚙 20th to 19th 🚗",
-        "direction": "n",
+        "direction": "N",
         "auto": "true",
         "kind": "auto"
       },
@@ -132,16 +132,16 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.42128998041153,
-            37.75860209907971
+            -122.42131680250169,
+            37.75863496756864
           ],
           [
-            -122.42145493626596,
-            37.7601034319298
+            -122.42145761847497,
+            37.760120395968684
           ],
           [
-            -122.42179289460182,
-            37.760085407634186
+            -122.42179457098246,
+            37.76009972104577
           ]
         ]
       }
@@ -153,7 +153,7 @@
         "stroke-width": 3,
         "stroke-opacity": 1,
         "name": "🚙 20th to 21st 🚗",
-        "direction": "s",
+        "direction": "S",
         "auto": "true",
         "kind": "auto"
       },
@@ -182,7 +182,7 @@
         "stroke-width": 3,
         "stroke-opacity": 1,
         "name": "🚙 22nd to 21st 🚗",
-        "direction": "n",
+        "direction": "N",
         "auto": "true",
         "kind": "auto"
       },
@@ -211,7 +211,7 @@
         "stroke-width": 3,
         "stroke-opacity": 1,
         "name": "🚙 22nd to 23rd 🚗",
-        "direction": "s",
+        "direction": "S",
         "auto": "true",
         "kind": "auto"
       },
@@ -240,7 +240,7 @@
         "stroke-width": 3,
         "stroke-opacity": 1,
         "name": "🚙 24th to 23rd 🚗",
-        "direction": "n",
+        "direction": "N",
         "auto": "true",
         "kind": "auto"
       },
@@ -269,7 +269,7 @@
         "stroke-width": 5,
         "stroke-opacity": 1,
         "name": "🚙 24th to 25th 🚗",
-        "direction": "s",
+        "direction": "S",
         "auto": "true",
         "kind": "auto"
       },
@@ -298,7 +298,7 @@
         "stroke-width": 3,
         "stroke-opacity": 1,
         "name": "🚙 26th to 25th 🚗",
-        "direction": "n",
+        "direction": "N",
         "auto": "true",
         "kind": "auto"
       },
@@ -329,7 +329,7 @@
         "name": "🚲 Valencia St Bikeway 🚲",
         "bike": "true",
         "emergency": "true",
-        "direction": "n",
+        "direction": "N",
         "auto": "false",
         "kind": "bike"
       },
@@ -354,7 +354,7 @@
         "stroke-width": 3,
         "stroke-opacity": 1,
         "name": "🚙 14th to 15th 🚗",
-        "direction": "s",
+        "direction": "S",
         "auto": "true",
         "kind": "auto"
       },
@@ -383,7 +383,7 @@
         "stroke-width": 3,
         "stroke-opacity": 1,
         "name": "🚙 14th to Duboce 🚗",
-        "direction": "n",
+        "direction": "N",
         "auto": "true",
         "kind": "auto"
       },
@@ -412,7 +412,7 @@
         "stroke-width": 3,
         "stroke-opacity": 1,
         "name": "🚙 Market-Duboce 🚗",
-        "direction": "s",
+        "direction": "S",
         "auto": "true",
         "kind": "auto"
       },
@@ -441,7 +441,7 @@
         "stroke-width": 3,
         "stroke-opacity": 1,
         "name": "🚙 26th to Cesar Chavez 🚗",
-        "direction": "s",
+        "direction": "S",
         "auto": "true",
         "kind": "auto"
       },
@@ -470,7 +470,7 @@
         "stroke-width": 3,
         "stroke-opacity": 1,
         "name": "🚓 17th to Sycamore (SFPD only) 🚔",
-        "direction": "s",
+        "direction": "S",
         "SFPD": "true",
         "emergency": "true",
         "auto": "false",
@@ -532,7 +532,7 @@
         "stroke-opacity": 1,
         "name": "🚌 12 Folsom-Pacific 🚌",
         "SFMTA": "true",
-        "direction": "n",
+        "direction": "N",
         "auto": "false",
         "kind": "transit"
       },
@@ -566,7 +566,7 @@
         "stroke-opacity": 1,
         "name": "🚌 27 Bryant 🚌",
         "SFMTA": "true",
-        "direction": "s",
+        "direction": "S",
         "auto": "false",
         "kind": "transit"
       },
@@ -599,7 +599,7 @@
         "stroke-width": 4,
         "stroke-opacity": 1,
         "name": "🚲 Valencia St Bikeway 🚲",
-        "direction": "s",
+        "direction": "S",
         "bike": "true",
         "emergency": "true",
         "auto": "false",
@@ -690,8 +690,9 @@
         "stroke": "#ff8000",
         "stroke-width": 5,
         "stroke-opacity": 1,
-        "side": "east",
-        "kind": "parklet"
+        "side": "E",
+        "kind": "parklet",
+        "segment": "18th-19th"
       },
       "geometry": {
         "type": "LineString",
@@ -714,18 +715,19 @@
         "stroke-width": 5,
         "stroke-opacity": 1,
         "kind": "parklet",
-        "side": "west"
+        "side": "W",
+        "segment": "18th-19th"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -122.42167621850969,
-            37.76158671037956
+            -122.42166012525558,
+            37.761587770610824
           ],
           [
-            -122.42154479026793,
-            37.760204155853756
+            -122.42152735590933,
+            37.760207336607
           ]
         ]
       }
@@ -736,18 +738,92 @@
         "stroke": "#ffff00",
         "stroke-width": 5,
         "stroke-opacity": 1,
-        "kind": "loading"
+        "kind": "loading",
+        "side": "w",
+        "segment": "18th-19th"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -122.42162525653838,
-            37.761588830842115
+            -122.4216265976429,
+            37.761587770610824
           ],
           [
-            -122.42149919271469,
-            37.760206276355945
+            -122.42149382829666,
+            37.76020839685806
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff8000",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "kind": "parklet",
+        "side": "W",
+        "segment": "19th-20th"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42135703563692,
+            37.760013310407906
+          ],
+          [
+            -122.42121756076813,
+            37.75864769085074
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff7d00",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "kind": "parklet",
+        "segment": "19th-20th",
+        "side": "E"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42153137922287,
+            37.76000482837667
+          ],
+          [
+            -122.42141604423523,
+            37.75863920866291
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ffff00",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "kind": "loading",
+        "side": "W",
+        "segment": "19th-20th"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42148846387863,
+            37.76000694888456
+          ],
+          [
+            -122.42137044668198,
+            37.75864557030389
           ]
         ]
       }

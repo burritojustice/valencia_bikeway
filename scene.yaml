@@ -99,6 +99,7 @@ layers:
     # buildings:
     #     enabled: false
     roads:
+        filter: {name: {not: Valencia St.}}
         draw:
             lines:
                 visible:
@@ -112,24 +113,25 @@ layers:
                     direction:
                         - northbound
                         - southbound
+
             # enabled: false
             _cars:
                 filter: {kind: auto}
                 draw:
                     _ants:
-                        color: |
-                            function(){
-                                var color = 'white'
-                                if (feature.direction == 'n')
-                                    {
-                                    color = 'blue'
-                                    }
-                                else if (feature.direction == 's'){
-                                    color = 'orange'
-                                    }
-
-                                return color
-                                }
+                        # color: |
+                        #     function(){
+                        #         var color = 'white'
+                        #         if (feature.direction == 'n')
+                        #             {
+                        #             color = 'blue'
+                        #             }
+                        #         else if (feature.direction == 's'){
+                        #             color = 'orange'
+                        #             }
+                        #         return color
+                        #         }
+                        color: blue
                         # color: red
                         width: [[14,.1px],[16,2px],[18,4px]]
                         order: 1000
@@ -147,8 +149,16 @@ layers:
                         color: red
                         width: [[14,.1px],[16,2px],[18,4px]]
                         order: 1000
+            _emergency:
+                filter: {kind: emergency}
+                draw:
+                    _ants:
+                        color: black
+                        width: [[14,.1px],[16,2px],[18,4px]]
+                        order: 1000
         _two_way:
             # enabled: false
+
             filter: {direction: [two-way]}
             draw:
                 lines:
@@ -170,7 +180,7 @@ layers:
                     order: 1001
 
         labels:
-            filter: {$zoom: {min: 17}}
+            filter: {$zoom: {min: 18}}
             draw:
                 text:
                     repeat_distance: 512
@@ -178,7 +188,7 @@ layers:
                     # text_source: pop100
                     font:
                         fill: black
-                        size: 10px
+                        size: [[18,12px],[19,16px]]
                         stroke:
                             color: white
                             width: 3px
@@ -189,4 +199,4 @@ layers:
                 color: [0,0,0,.2]
                 width: [[14,.1px],[16,2px],[18,5px]]
                 order: 1000
-             
+                         

@@ -4,12 +4,10 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
         "name": "16th to 15th",
-        "direction": "northbound",
-        "auto": "true"
+        "direction": "n",
+        "auto": "true",
+        "kind": "auto"
       },
       "geometry": {
         "type": "LineString",
@@ -32,12 +30,10 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
         "name": "16th to 17th",
-        "direction": "southbound",
-        "auto": "true"
+        "direction": "s",
+        "auto": "true",
+        "kind": "auto"
       },
       "geometry": {
         "type": "LineString",
@@ -60,12 +56,10 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
         "name": "16th to 17th",
-        "direction": "northbound",
-        "auto": "true"
+        "direction": "n",
+        "auto": "true",
+        "kind": "auto"
       },
       "geometry": {
         "type": "LineString",
@@ -88,12 +82,10 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
         "name": "18th to 19th",
-        "direction": "southbound",
-        "auto": "true"
+        "direction": "s",
+        "auto": "true",
+        "kind": "auto"
       },
       "geometry": {
         "type": "LineString",
@@ -116,12 +108,10 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
         "name": "20th to 19th",
-        "direction": "northbound",
-        "auto": "true"
+        "direction": "n",
+        "auto": "true",
+        "kind": "auto"
       },
       "geometry": {
         "type": "LineString",
@@ -144,12 +134,10 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
         "name": "20th to 21st",
-        "direction": "southbound",
-        "auto": "true"
+        "direction": "s",
+        "auto": "true",
+        "kind": "auto"
       },
       "geometry": {
         "type": "LineString",
@@ -172,12 +160,10 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
         "name": "22nd to 21st",
-        "direction": "northbound",
-        "auto": "true"
+        "direction": "n",
+        "auto": "true",
+        "kind": "auto"
       },
       "geometry": {
         "type": "LineString",
@@ -200,12 +186,10 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
         "name": "22nd to 23rd",
-        "direction": "southbound",
-        "auto": "true"
+        "direction": "s",
+        "auto": "true",
+        "kind": "auto"
       },
       "geometry": {
         "type": "LineString",
@@ -228,12 +212,10 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
         "name": "24th to 23rd",
-        "direction": "northbound",
-        "auto": "true"
+        "direction": "n",
+        "auto": "true",
+        "kind": "auto"
       },
       "geometry": {
         "type": "LineString",
@@ -256,12 +238,10 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
         "name": "24th to 25th",
-        "direction": "southbound",
-        "auto": "true"
+        "direction": "s",
+        "auto": "true",
+        "kind": "auto"
       },
       "geometry": {
         "type": "LineString",
@@ -284,12 +264,10 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
         "name": "26th to 25th",
-        "direction": "northbound",
-        "auto": "true"
+        "direction": "n",
+        "auto": "true",
+        "kind": "auto"
       },
       "geometry": {
         "type": "LineString",
@@ -312,14 +290,12 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
         "name": "Valencia St Bikeway",
         "bike": "true",
         "emergency": "true",
-        "direction": "northbound",
-        "auto": "false"
+        "direction": "n",
+        "auto": "false",
+        "kind": "bike"
       },
       "geometry": {
         "type": "LineString",
@@ -338,12 +314,10 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
         "name": "14th to 15th",
-        "direction": "southbound",
-        "auto": "true"
+        "direction": "s",
+        "auto": "true",
+        "kind": "auto"
       },
       "geometry": {
         "type": "LineString",
@@ -366,12 +340,10 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
         "name": "14th to Duboce",
-        "direction": "northbound",
-        "auto": "true"
+        "direction": "n",
+        "auto": "true",
+        "kind": "auto"
       },
       "geometry": {
         "type": "LineString",
@@ -394,12 +366,10 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
         "name": "Market-Duboce",
-        "direction": "southbound",
-        "auto": "true"
+        "direction": "s",
+        "auto": "true",
+        "kind": "auto"
       },
       "geometry": {
         "type": "LineString",
@@ -422,12 +392,10 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
         "name": "26th to Cesar Chavez",
-        "direction": "southbound",
-        "auto": "true"
+        "direction": "s",
+        "auto": "true",
+        "kind": "auto"
       },
       "geometry": {
         "type": "LineString",
@@ -450,14 +418,12 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
         "name": "17th to Sycamore (SFPD only)",
-        "direction": "southbound",
+        "direction": "s",
         "SFPD": "true",
         "emergency": "true",
-        "auto": "false"
+        "auto": "false",
+        "kind": "transit"
       },
       "geometry": {
         "type": "LineString",
@@ -476,13 +442,11 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
         "name": "33 Ashbury/18th St",
         "direction": "two-way",
         "SFMTA": "true",
-        "auto": "false"
+        "auto": "false",
+        "kind": "transit"
       },
       "geometry": {
         "type": "LineString",
@@ -509,13 +473,11 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
         "name": "12 Folsom-Pacific",
         "SFMTA": "true",
-        "direction": "northbound",
-        "auto": "false"
+        "direction": "n",
+        "auto": "false",
+        "kind": "transit"
       },
       "geometry": {
         "type": "LineString",
@@ -542,13 +504,11 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
         "name": "27 Bryant",
         "SFMTA": "true",
-        "direction": "southbound",
-        "auto": "false"
+        "direction": "s",
+        "auto": "false",
+        "kind": "transit"
       },
       "geometry": {
         "type": "LineString",
@@ -575,14 +535,12 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
-        "stroke-opacity": 1,
         "name": "Valencia St Bikeway SB",
-        "direction": "southbound",
+        "direction": "s",
         "bike": "true",
         "emergency": "true",
-        "auto": "false"
+        "auto": "false",
+        "kind": "bike"
       },
       "geometry": {
         "type": "LineString",

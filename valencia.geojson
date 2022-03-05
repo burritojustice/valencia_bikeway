@@ -271,51 +271,23 @@
         "name": "🚙 24th to 25th 🚗",
         "direction": "S",
         "auto": "true",
-        "kind": "auto"
+        "kind": "auto",
+        "segment": "24th-25th"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -122.42070257663725,
-            37.75199523633841
+            -122.42073208093643,
+            37.751997357075886
           ],
           [
-            -122.42056444287299,
-            37.75052661103283
+            -122.42059394717216,
+            37.75052873181242
           ],
           [
-            -122.42074012756346,
-            37.750514946744076
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#0080ff",
-        "stroke-width": 3,
-        "stroke-opacity": 1,
-        "name": "🚙 26th to 25th 🚗",
-        "direction": "N",
-        "auto": "true",
-        "kind": "auto"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.42041826248168,
-            37.74900917766359
-          ],
-          [
-            -122.42056041955948,
-            37.75049055777069
-          ],
-          [
-            -122.42073476314545,
-            37.75047889347623
+            -122.42076963186264,
+            37.750517067523994
           ]
         ]
       }
@@ -430,35 +402,6 @@
           [
             -122.42263108491896,
             37.76988785552937
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#0080ff",
-        "stroke-width": 3,
-        "stroke-opacity": 1,
-        "name": "🚙 26th to Cesar Chavez 🚗",
-        "direction": "S",
-        "auto": "true",
-        "kind": "auto"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.42042496800423,
-            37.74885329700158
-          ],
-          [
-            -122.42037132382391,
-            37.74820007922808
-          ],
-          [
-            -122.4205456674099,
-            37.748202200074324
           ]
         ]
       }
@@ -648,7 +591,8 @@
         "stroke-width": 5,
         "stroke-opacity": 1,
         "name": "parklets",
-        "kind": "parklet"
+        "kind": "parklet",
+        "segment": "24th-25th"
       },
       "geometry": {
         "type": "LineString",
@@ -671,7 +615,8 @@
         "stroke-width": 5,
         "stroke-opacity": 1,
         "name": "parklets",
-        "kind": "parklet"
+        "kind": "parklet",
+        "segment": "24th-25th"
       },
       "geometry": {
         "type": "LineString",
@@ -860,6 +805,120 @@
           [
             -122.42153942584991,
             37.7665759905584
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#e1ff00",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "kind": "loading",
+        "name": "Synergy school loading island"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42051750421524,
+            37.75062416683059
+          ],
+          [
+            -122.42056041955948,
+            37.751115125034296
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#e1ff00",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "kind": "parking",
+        "segment": "24th-25th"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42056176066397,
+            37.751129970372
+          ],
+          [
+            -122.42066100239754,
+            37.75202916813092
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "kind": "parking"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42049604654311,
+            37.74905583575705
+          ],
+          [
+            -122.4206221103668,
+            37.7503983037552
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#0000ff",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "kind": "auto",
+        "auto": "true"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42058187723158,
+            37.75040042453845
+          ],
+          [
+            -122.42045044898987,
+            37.749057956578795
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#555555",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "kind": "parking",
+        "parking": "true"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42050409317015,
+            37.75040678688785
+          ],
+          [
+            -122.42038071155547,
+            37.74906219822206
           ]
         ]
       }

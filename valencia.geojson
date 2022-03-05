@@ -518,8 +518,8 @@
             37.76491470153467
           ],
           [
-            -122.42137312889099,
-            37.764939085753205
+            -122.42137446999551,
+            37.76494332648602
           ]
         ]
       }
@@ -624,7 +624,8 @@
       "properties": {
         "stroke": "#ff8000",
         "stroke-width": 6,
-        "stroke-opacity": 1
+        "stroke-opacity": 1,
+        "name": "parklets"
       },
       "geometry": {
         "type": "LineString",
@@ -646,7 +647,8 @@
         "stroke": "#ff8000",
         "stroke-width": 5,
         "stroke-opacity": 1,
-        "name": "parklets"
+        "name": "parklets",
+        "kind": "parklet"
       },
       "geometry": {
         "type": "LineString",
@@ -668,7 +670,8 @@
         "stroke": "#ff8000",
         "stroke-width": 5,
         "stroke-opacity": 1,
-        "name": "parklet"
+        "name": "parklets",
+        "kind": "parklet"
       },
       "geometry": {
         "type": "LineString",
@@ -836,19 +839,19 @@
         "stroke-opacity": 1,
         "name": "🚌 55-Dogpatch 🚌",
         "kind": "SFMTA",
-        "direction": "two-way",
+        "direction": "S",
         "SFMTA": "true"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -122.42137849330902,
-            37.764964530146536
+            -122.4213758111,
+            37.76495286813401
           ],
           [
-            -122.42190420627593,
-            37.764947567218606
+            -122.42190018296243,
+            37.76492530336981
           ],
           [
             -122.42207050323485,

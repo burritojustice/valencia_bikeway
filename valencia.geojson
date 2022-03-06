@@ -598,30 +598,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.4205845594406,
-            37.75199311560086
-          ],
-          [
-            -122.42045111954211,
-            37.750619395082595
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#ff8000",
-        "stroke-width": 5,
-        "stroke-opacity": 1,
-        "name": "parklets",
-        "kind": "parklet",
-        "segment": "24th-25th"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -122.42075890302658,
             37.751974028960184
           ],
@@ -812,7 +788,7 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#e1ff00",
+        "stroke": "#00ffff",
         "stroke-width": 5,
         "stroke-opacity": 1,
         "kind": "loading",
@@ -845,7 +821,7 @@
         "type": "LineString",
         "coordinates": [
           [
-            -122.42056176066397,
+            -122.42056846618652,
             37.751129970372
           ],
           [
@@ -919,6 +895,77 @@
           [
             -122.42038071155547,
             37.74906219822206
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff8000",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "kind": "parklet",
+        "segment": "22nd-23rd",
+        "side": "E"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42075756192206,
+            37.75382965155168
+          ],
+          [
+            -122.42089167237283,
+            37.75521338553559
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ffff00",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "kind": "loading",
+        "segment": "22nd-23rd"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42096140980719,
+            37.7552091442449
+          ],
+          [
+            -122.420834004879,
+            37.753819048126225
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff8000",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "kind": "parklet",
+        "segment": "22nd-23rd",
+        "side": "W"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42106668651104,
+            37.7550638798924
+          ],
+          [
+            -122.42095470428467,
+            37.75380844469924
           ]
         ]
       }

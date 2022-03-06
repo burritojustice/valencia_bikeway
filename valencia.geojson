@@ -1081,6 +1081,53 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ffff00",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "kind": "loading",
+        "side": "W",
+        "segment": "15th-16th"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42214024066925,
+            37.76642756804117
+          ],
+          [
+            -122.4220222234726,
+            37.76507478908323
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ffff00",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "kind": "loading",
+        "segment": "16th-17th"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42174863815306,
+            37.76338059997251
+          ],
+          [
+            -122.42188811302185,
+            37.7648309469838
+          ]
+        ]
+      }
     }
   ]
 }

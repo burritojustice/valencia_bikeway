@@ -406,40 +406,6 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#ff0505",
-        "stroke-width": 3,
-        "stroke-opacity": 1,
-        "name": "🚌 33 Ashbury/18th St 🚌",
-        "direction": "two-way",
-        "SFMTA": "true",
-        "auto": "false",
-        "kind": "transit"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.4222582578659,
-            37.7616609265328
-          ],
-          [
-            -122.4216145277023,
-            37.76170333572977
-          ],
-          [
-            -122.42192566394806,
-            37.76492848392003
-          ],
-          [
-            -122.4213758111,
-            37.76496240978075
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "stroke": "#ff0000",
         "stroke-width": 3,
         "stroke-opacity": 1,

@@ -791,7 +791,7 @@
         "stroke": "#00ffff",
         "stroke-width": 5,
         "stroke-opacity": 1,
-        "kind": "loading",
+        "kind": "school",
         "name": "Synergy school loading island"
       },
       "geometry": {
@@ -1000,8 +1000,9 @@
         "stroke": "#00ffff",
         "stroke-width": 5,
         "stroke-opacity": 1,
-        "kind": "loading",
-        "segment": "23rd-24th"
+        "kind": "school",
+        "segment": "23rd-24th",
+        "name": "BVHM school loading"
       },
       "geometry": {
         "type": "LineString",

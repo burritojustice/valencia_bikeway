@@ -208,7 +208,7 @@
       "type": "Feature",
       "properties": {
         "stroke": "#0080ff",
-        "stroke-width": 3,
+        "stroke-width": 5,
         "stroke-opacity": 1,
         "name": "🚙 22nd to 23rd 🚗",
         "direction": "S",
@@ -237,7 +237,7 @@
       "type": "Feature",
       "properties": {
         "stroke": "#007dff",
-        "stroke-width": 3,
+        "stroke-width": 5,
         "stroke-opacity": 1,
         "name": "🚙 24th to 23rd 🚗",
         "direction": "N",
@@ -860,7 +860,8 @@
         "stroke-width": 5,
         "stroke-opacity": 1,
         "kind": "auto",
-        "auto": "true"
+        "auto": "true",
+        "direction": "two-way"
       },
       "geometry": {
         "type": "LineString",
@@ -966,6 +967,75 @@
           [
             -122.42095470428467,
             37.75380844469924
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#0000ff",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "direction": "two-way",
+        "segment": "26th-CC"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42042899131776,
+            37.74880557836595
+          ],
+          [
+            -122.42038875818254,
+            37.748283852609
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#00ffff",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "kind": "loading",
+        "segment": "23rd-24th"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4206730723381,
+            37.752226396366794
+          ],
+          [
+            -122.42080718278885,
+            37.75362394482651
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff8000",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "kind": "parklet",
+        "segment": "23rd-24th"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42092385888098,
+            37.753614401717144
+          ],
+          [
+            -122.42082595825194,
+            37.75251269448343
           ]
         ]
       }

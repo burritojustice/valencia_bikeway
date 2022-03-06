@@ -842,7 +842,7 @@
         "stroke": "#e1ff00",
         "stroke-width": 5,
         "stroke-opacity": 1,
-        "kind": "parking",
+        "kind": "loading",
         "segment": "24th-25th"
       },
       "geometry": {

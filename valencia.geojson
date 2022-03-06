@@ -729,7 +729,7 @@
         "stroke-width": 3,
         "stroke-opacity": 1,
         "name": "🚌 55-Dogpatch 🚌",
-        "kind": "SFMTA",
+        "kind": "transit",
         "direction": "S",
         "SFMTA": "true"
       },

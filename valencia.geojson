@@ -265,36 +265,6 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#0080ff",
-        "stroke-width": 5,
-        "stroke-opacity": 1,
-        "name": "🚙 24th to 25th 🚗",
-        "direction": "S",
-        "auto": "true",
-        "kind": "auto",
-        "segment": "24th-25th"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.42073208093643,
-            37.751997357075886
-          ],
-          [
-            -122.42059394717216,
-            37.75052873181242
-          ],
-          [
-            -122.42076963186264,
-            37.750517067523994
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "stroke": "#1eff00",
         "stroke-width": 4,
         "stroke-opacity": 1,
@@ -856,30 +826,6 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#0000ff",
-        "stroke-width": 5,
-        "stroke-opacity": 1,
-        "kind": "auto",
-        "auto": "true",
-        "direction": "two-way"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.42058187723158,
-            37.75040042453845
-          ],
-          [
-            -122.42045044898987,
-            37.749057956578795
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "stroke": "#555555",
         "stroke-width": 5,
         "stroke-opacity": 1,
@@ -967,29 +913,6 @@
           [
             -122.42095470428467,
             37.75380844469924
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#0000ff",
-        "stroke-width": 5,
-        "stroke-opacity": 1,
-        "direction": "two-way",
-        "segment": "26th-CC"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.42042899131776,
-            37.74880557836595
-          ],
-          [
-            -122.42038875818254,
-            37.748283852609
           ]
         ]
       }

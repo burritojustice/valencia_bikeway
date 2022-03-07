@@ -1375,6 +1375,50 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#00fffb",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "kind": "school"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42236956954001,
+            37.76924330444496
+          ],
+          [
+            -122.42232531309128,
+            37.76880335269905
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#00ffff",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "kind": "school"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42227636277676,
+            37.76911608975129
+          ],
+          [
+            -122.42221467196941,
+            37.76846729140933
+          ]
+        ]
+      }
     }
   ]
 }

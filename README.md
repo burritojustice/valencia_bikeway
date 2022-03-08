@@ -10,7 +10,7 @@ Zoomable map: marching ants indicate direction of travel. There are increasing l
 
 https://burritojustice.github.io/valencia_bikeway/#18/37.75774/-122.42144
 
-![screenshot](images/one-way.jpg)
+![screenshot](images/one-way.gif)
 
 ## Assumptions and Questions:
 

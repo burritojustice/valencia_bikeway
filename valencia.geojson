@@ -369,64 +369,6 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#0080ff",
-        "stroke-width": 3,
-        "stroke-opacity": 1,
-        "name": "🚙 14th to Duboce 🚗",
-        "direction": "N",
-        "auto": "true",
-        "kind": "auto"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.42221802473068,
-            37.76824678348721
-          ],
-          [
-            -122.42237359285355,
-            37.76984969147692
-          ],
-          [
-            -122.42262572050095,
-            37.7698359100087
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#0580ff",
-        "stroke-width": 3,
-        "stroke-opacity": 1,
-        "name": "🚙 Market-Duboce 🚗",
-        "direction": "S",
-        "auto": "true",
-        "kind": "auto"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.42262572050095,
-            37.772302751903005
-          ],
-          [
-            -122.42237895727158,
-            37.769900576875834
-          ],
-          [
-            -122.42263108491896,
-            37.76988785552937
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "stroke": "#555555",
         "stroke-width": 5,
         "stroke-opacity": 1,

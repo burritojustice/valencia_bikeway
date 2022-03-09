@@ -134,6 +134,7 @@ layers:
     
     _shared_spaces:
         data: {source: _shared_spaces}
+        filter: {$zoom: {min: 17}}
         draw:
             points:
                 color: |
@@ -187,31 +188,48 @@ layers:
             # enabled: false
             _cars:
                 filter: {kind: auto}
+                # enabled: false
                 draw:
                     _ants:
                         color: blue
                         # color: red
                         width: [[14,.1px],[16,2px],[18,4px]]
-                        width: 3m
+                        width: [[15,6px],[16,6px],[17,3m]]
                         order: 1000
                     _lines: 
                         color: white
                         width: [[14,.1px],[16,2px],[18,4px]]
-                        width: 3m
+                        width: [[15,6px],[16,6px],[17,3m]]
                         order: 1000
 
             _bikes:
                 filter: {kind: bike}
-                draw:
-                    _ants:
-                        color: green
-                        width: [[14,.1px],[16,2px],[18,4px]]
-                        width: 2.5m
-                        order: 1000
-                    _lines: 
-                        color: white
-                        width: [[14,.1px],[16,2px],[18,4px]]
-                        order: 1000
+                _high_zoom:
+                    filter: {$zoom:{min: 17}}
+                    draw:
+                        _ants:
+                            color: green
+                            # width: [[14,.1px],[16,2px],[18,4px]]
+                            width: 2.5m
+                            width: [[16,6px],[17,2.5m]]
+                            order: 1000
+                        _lines: 
+                            color: white
+                            width: [[14,.1px],[16,2px],[18,4px]]
+                            width: [[16,6px],[17,2.5m]]
+
+                            order: 1000
+                _low_zoom:
+                    filter: {$zoom:{max: 17}, direction: N}
+                    draw: 
+                        lines:
+                            offset: [[15, 3.5px], [16, 6.5px]]
+                            color: green
+                            width: 6px
+                            order: 2000
+                            outline:
+                                color: white
+                                width: 1px
             _muni:
                 filter: {kind: transit}
                 draw:
@@ -255,7 +273,7 @@ layers:
                             
                     order: 1001
         _loading:
-            filter: {kind: loading}
+            filter: {kind: loading, $zoom :{min: 17}}
             draw:
                 lines:
                     # color: [.5,.5,.5,0.75]
@@ -267,7 +285,7 @@ layers:
                     order: 1001
                     order: 1001
         _parklet_zones:
-            filter: {kind: parklet}
+            filter: {kind: parklet, $zoom :{min: 17}}
             draw:
                 lines:
                     # color: [.5,.5,.5,0.75]
@@ -278,7 +296,7 @@ layers:
                     width: 3m
                     order: 1001
         _school:
-            filter: {kind: school}
+            filter: {kind: school, $zoom :{min: 17}}
             draw:
                 lines:
                     # color: [.5,.5,.5,0.75]
@@ -304,6 +322,7 @@ layers:
                             width: 3px
     _existing_parklets:
         data: {source: _parklets}
+        filter: {$zoom: {min: 17}}
         draw:
             points:
                 interactive: true

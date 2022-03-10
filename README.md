@@ -17,7 +17,7 @@ Valencia St is a geometry problem. Rideshare, commercial loading, and food picku
 
 - You could flip this alternating one-way pattern for each block, hard to say which is optimal.
 - Extra space in the orange parklet zone not actually used by parklets would be more space for pedestians.
-- I'd go as suggest no westbound turns off of Valencia, but if you do, you'd obviously have protected intersections.
+- I'd go as suggest no eastbound turns off of Valencia, but if you do, you'd obviously have protected intersections.
 - 14th to 19th is the narrowest part of Valencia, and raises some of the biggest question on how to allocate space for commercial access after a two-way cyclepath and parklets are in place.
 - What does traffic looks like north of 14th and south of 24th? The streets are wide enough to have two way traffic and a protected two-way cyclepath.
 - Assuming loading islands for school drop-off at Synergy and Buena Vista-Horace Mann. These could be used for general parking outside of school loading hours as is done along 14th. 

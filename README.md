@@ -1,6 +1,8 @@
-# Valencia Bikeway
+# Valencia Street Bikeway
 
 Behold a modest proposal to add a two-way protected cycletrack on the east side of Valencia St and converting the west lane to alternating one-way traffic, with lots of 10-minute loading zones for food pickup and commercial delivery, as well as accessible blue-zone parking alongside lots of parklets and more human-friendly space.
+
+Valencia St is a geometry problem. Rideshare, commercial loading, and food pickup/delivey aren't going away, and neither are parklets or cyclists. While I'd love Valencia to be a car-free pedestrian promenade, that's not going to happen any time soon. But reallocating one lane of car traffic for bikes, making more room for parklets, and making it easier for commercial traffic? Anyone can still drive on Valencia, just not all the way. Everyone gets something, and everyone is safer. Privately owned cars could park in the commmercial loading zone overnight.
 
 https://streetmix.net/burritojustice/6/valencia-st-15th-19th
 
@@ -15,7 +17,8 @@ https://burritojustice.github.io/valencia_bikeway/#18/37.75774/-122.42144
 ## Assumptions and Questions:
 
 - You could flip this alternating one-way pattern for each block, hard to say which is optimal.
-- I'd suggest no westbound turns off of Valencia, but if you do, you'd obviously have protected intersections.
+- Extra space in the orange parklet zone not actually used by parklets could also just be more space for pedestians.
+- I'd go as suggest no westbound turns off of Valencia, but if you do, you'd obviously have protected intersections.
 - 14th to 19th is the narrowest part of Valencia, and raises some of the biggest question on how to allocate space for commercial access after a two-way cyclepath and parklets are in place.
 - What does traffic looks like north of 14th and south of 24th? The streets are wide enough to have two way traffic and a protected two-way cyclepath.
 - Assuming loading islands for school drop-off at Synergy and Buena Vista-Horace Mann. These could be used for general parking outside of school loading hours as is done along 14th. 

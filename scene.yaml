@@ -74,7 +74,7 @@ styles:
     _lines:
         base: lines
         blend: inlay
-        blend_order: 1
+        blend_order: 0
     _lines_low:
         base: lines
         blend: inlay
@@ -90,6 +90,7 @@ styles:
     _ants:
         base: lines
         blend: inlay
+        blend_order: 0
         texcoords: true
         animated: true
         shaders:
@@ -178,6 +179,7 @@ layers:
             lines:
                 visible:
                     false
+
     _valencia:
         # enabled: false
         data: {source: _valencia_bikeway}
@@ -218,7 +220,7 @@ layers:
                             width: [[14,.1px],[16,2px],[18,4px]]
                             width: [[16,6px],[17,2.5m]]
 
-                            order: 1000
+                            order: 1001
                 _low_zoom:
                     filter: {$zoom:{max: 17}, direction: N}
                     draw: 
@@ -283,7 +285,20 @@ layers:
                     width: [[14,.1px],[16,2px],[18,5px]]
                     width: 3m
                     order: 1001
-                    order: 1001
+            label:
+                filter: {$zoom:{min: 19}}
+                draw:
+                    text:
+                        # repeat_distance: 512
+                        # optional: true
+                        font:
+                            fill: black
+                            size: [[18,10px],[19,12px]]
+                            stroke:
+                                color: white
+                                width: 3px
+                        text_source: function(){return 'commercial/loading'}
+                    
         _parklet_zones:
             filter: {kind: parklet, $zoom :{min: 17}}
             draw:
@@ -295,6 +310,21 @@ layers:
                     # width: [[14,.1px],[16,2px],[18,5px]]
                     width: 3m
                     order: 1001
+            label:
+                filter: {$zoom:{min: 19}}
+                draw:
+                    text:
+                        # repeat_distance: 512
+                        optional: true
+                        font:
+                            fill: black
+                            size: [[18,10px],[19,12px]]
+                            stroke:
+                                color: white
+                                width: 3px
+                        text_source: function(){return 'parklet/public space'}
+
+                    
         _school:
             filter: {kind: school, $zoom :{min: 17}}
             draw:
@@ -304,7 +334,7 @@ layers:
                     color: aqua
                     # color: red
                     # width: [[14,.1px],[16,2px],[18,5px]]
-                    width: 3m
+                    width: 4m
                     order: 1001
         labels:
             filter: {$zoom: {min: 18}}
@@ -354,8 +384,11 @@ layers:
         draw: 
             lines:
                 color: [.7,.7,.7]
-                width: [[14,.1px],[16,2px],[18,5px]]
+                width: [[14,.1px],[16,2px],[18,4px]]
                 order: 1000
+                outline:
+                    color: white
+                    width: .5px
 
     _satellite:
         data: {source: _satellite}

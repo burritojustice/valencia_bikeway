@@ -15,6 +15,7 @@ Valencia St is a geometry problem. Rideshare, commercial loading, and food picku
 
 ## Assumptions and Questions:
 
+- By making wide two-way bike lanes, not only can families and friends ride together, SFFD can use them for emergency response.
 - You could flip this alternating one-way pattern for each block, hard to say which is optimal.
 - Extra space in the orange parklet zone not actually used by parklets would be more space for pedestians.
 - I'd go as far as to suggest no eastbound turns off of Valencia, but if you do allow them, you'd obviously have protected intersections.

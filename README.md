@@ -17,12 +17,13 @@ https://burritojustice.github.io/valencia_bikeway/#18/37.75774/-122.42144
 ## Assumptions and Questions:
 
 - You could flip this alternating one-way pattern for each block, hard to say which is optimal.
-- Extra space in the orange parklet zone not actually used by parklets could also just be more space for pedestians.
+- Extra space in the orange parklet zone not actually used by parklets would be more space for pedestians.
 - I'd go as suggest no westbound turns off of Valencia, but if you do, you'd obviously have protected intersections.
 - 14th to 19th is the narrowest part of Valencia, and raises some of the biggest question on how to allocate space for commercial access after a two-way cyclepath and parklets are in place.
 - What does traffic looks like north of 14th and south of 24th? The streets are wide enough to have two way traffic and a protected two-way cyclepath.
 - Assuming loading islands for school drop-off at Synergy and Buena Vista-Horace Mann. These could be used for general parking outside of school loading hours as is done along 14th. 
 - Muni has a few lines to consider -- 27 (24th to CC), 12 (26th to CC), 55 (16th-15th, which interferes with the pattern -- but I believe is non-revenue so maybe it turns on Guerrero?). There's also need for counterflow SFPD access along 18th.
+- Privately owned cars could park in the commmercial loading zone overnight. Would also need blue zone / accessible parking spots.
 
 ## Sources
 

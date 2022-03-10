@@ -6,7 +6,7 @@ Valencia St is a geometry problem. Rideshare, commercial loading, and food picku
 
 [Streetmix layout](https://streetmix.net/burritojustice/6/valencia-st-15th-19th)
 
-![streetmix](images/valencia-st-15th-19th.png)
+[![streetmix](images/valencia-st-15th-19th.png)](https://burritojustice.github.io/valencia_bikeway/map/#18/37.75774/-122.42144)
 
 [Zoomable map](https://burritojustice.github.io/valencia_bikeway/map/#18/37.75774/-122.42144
 ): marching ants indicate direction of travel. There are increasing levels of road detail and parklets visible as you zoom in.

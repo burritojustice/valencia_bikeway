@@ -248,7 +248,11 @@ layers:
                 draw:
                     _ants:
                         color: black
-                        width: [[14,.1px],[16,2px],[18,4px]]
+                        width: [[14,.1px],[16,2px],[18,5px]]
+                        order: 1000
+                    _lines: 
+                        color: white
+                        width: [[14,.1px],[16,2px],[18,5px]]
                         order: 1000
         _two_way:
             # enabled: false

@@ -4,13 +4,14 @@ Behold a modest proposal to add a two-way protected cycletrack on the east side 
 
 Valencia St is a geometry problem. Rideshare, commercial loading, and food pickup/delivey aren't going away, and neither are parklets or cyclists. While I'd love Valencia to be a car-free pedestrian promenade, that's not going to happen any time soon. But reallocating one lane of car traffic for bikes, making more room for parklets, and making it easier for commercial traffic? Anyone can still drive on Valencia, just not all the way. Everyone gets something, and everyone is safer. 
 
-https://streetmix.net/burritojustice/6/valencia-st-15th-19th
+[Streetmix layout](https://streetmix.net/burritojustice/6/valencia-st-15th-19th)
 
 ![streetmix](images/valencia-st-15th-19th.png)
 
-Zoomable map: marching ants indicate direction of travel. There are increasing levels of road detail and parklets visible as you zoom in.
+[Zoomable map](https://burritojustice.github.io/valencia_bikeway/map/#18/37.75774/-122.42144
+): marching ants indicate direction of travel. There are increasing levels of road detail and parklets visible as you zoom in.
 
-https://burritojustice.github.io/valencia_bikeway/#18/37.75774/-122.42144
+https://burritojustice.github.io/valencia_bikeway/map/#18/37.75774/-122.42144
 
 ![screenshot](images/one-way.gif)
 

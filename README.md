@@ -15,7 +15,7 @@ Valencia St is a geometry problem. Rideshare, commercial loading, and food picku
 
 ## Assumptions and Questions:
 
-- By making wide two-way bike lanes, not only can families and friends ride together, SFFD can use them for emergency response.
+- By making wide two-way bike lanes, not only can families and friends ride alongside each other, SFFD can use them for emergency response like they do the red bus lanes.
 - You could flip this alternating one-way pattern for each block, hard to say which is optimal.
 - Extra space in the orange parklet zone not actually used by parklets would be more space for pedestians.
 - I'd go as far as to suggest no eastbound turns off of Valencia, but if you do allow them, you'd obviously have protected intersections.
@@ -25,6 +25,7 @@ Valencia St is a geometry problem. Rideshare, commercial loading, and food picku
 - Muni has a few lines to consider -- 27 (24th to CC), 12 (26th to CC), 55 (16th-15th, which interferes with the pattern -- but I believe is non-revenue so maybe it turns on Guerrero?). There's also need for counterflow SFPD access along 18th.
 - Privately owned cars could park in the commmercial loading zone overnight. Would also need blue zone / accessible parking spots.
 - Curblines are from 2019, via [data.sf.gov](https://data.sfgov.org/City-Infrastructure/City-curbs-and-islands/4s5e-m4gv). 
+- The width of the lines are largely to scale when you zoom all the way in.
 
 ## Sources
 

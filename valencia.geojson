@@ -4,267 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#007dff",
-        "stroke-width": 3,
-        "stroke-opacity": 1,
-        "name": "🚙 16th to 15th 🚗",
-        "direction": "N",
-        "auto": "true",
-        "kind": "auto"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.42194712162016,
-            37.76502390036364
-          ],
-          [
-            -122.42209196090698,
-            37.76651238094464
-          ],
-          [
-            -122.42246210575104,
-            37.76649117772791
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#0080ff",
-        "stroke-width": 3,
-        "stroke-opacity": 1,
-        "name": "🚙 16th to 17th 🚗",
-        "direction": "S",
-        "auto": "true",
-        "kind": "auto"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.42194041609766,
-            37.76482246550502
-          ],
-          [
-            -122.42180228233337,
-            37.76334031214955
-          ],
-          [
-            -122.42205575108527,
-            37.76332652946822
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#0080ff",
-        "stroke-width": 5,
-        "stroke-opacity": 1,
-        "name": "🚙 16th to 17th 🚗",
-        "direction": "N",
-        "auto": "true",
-        "kind": "auto"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.42162391543388,
-            37.76177649153742
-          ],
-          [
-            -122.42177948355676,
-            37.763320168229804
-          ],
-          [
-            -122.42203697562218,
-            37.76330956616461
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#0080ff",
-        "stroke-width": 5,
-        "stroke-opacity": 1,
-        "name": "🚙 18th to 19th 🚗",
-        "direction": "S",
-        "auto": "true",
-        "kind": "auto"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.42161184549329,
-            37.761588830842115
-          ],
-          [
-            -122.42148041725157,
-            37.76012940811279
-          ],
-          [
-            -122.42181703448294,
-            37.76010979344485
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#007dff",
-        "stroke-width": 5,
-        "stroke-opacity": 1,
-        "name": "🚙 20th to 19th 🚗",
-        "direction": "N",
-        "auto": "true",
-        "kind": "auto"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.4213328957558,
-            37.75863496756864
-          ],
-          [
-            -122.42147371172908,
-            37.760120395968684
-          ],
-          [
-            -122.42181066423656,
-            37.76009972104577
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#0080ff",
-        "stroke-width": 3,
-        "stroke-opacity": 1,
-        "name": "🚙 20th to 21st 🚗",
-        "direction": "S",
-        "auto": "true",
-        "kind": "auto"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.42130607366563,
-            37.75840382756266
-          ],
-          [
-            -122.42117196321487,
-            37.75694275154793
-          ],
-          [
-            -122.42150992155076,
-            37.7569215455878
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#0080ff",
-        "stroke-width": 5,
-        "stroke-opacity": 1,
-        "name": "🚙 22nd to 21st 🚗",
-        "direction": "N",
-        "auto": "true",
-        "kind": "auto"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.42102712392806,
-            37.75540742432411
-          ],
-          [
-            -122.4211773276329,
-            37.75687913364932
-          ],
-          [
-            -122.42151260375975,
-            37.75686004826908
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#0080ff",
-        "stroke-width": 5,
-        "stroke-opacity": 1,
-        "name": "🚙 22nd to 23rd 🚗",
-        "direction": "S",
-        "auto": "true",
-        "kind": "auto"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.4209976196289,
-            37.755197480694285
-          ],
-          [
-            -122.42086887359618,
-            37.75373422066782
-          ],
-          [
-            -122.42114782333373,
-            37.75371725516449
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#007dff",
-        "stroke-width": 5,
-        "stroke-opacity": 1,
-        "name": "🚙 24th to 23rd 🚗",
-        "direction": "N",
-        "auto": "true",
-        "kind": "auto"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.42071196436882,
-            37.75223912075105
-          ],
-          [
-            -122.42084607481955,
-            37.75366423794144
-          ],
-          [
-            -122.42112904787064,
-            37.7536493931122
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "stroke": "#1eff00",
         "stroke-width": 4,
         "stroke-opacity": 1,
@@ -329,35 +68,6 @@
           [
             -122.42257341742511,
             37.772372716996266
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "stroke": "#0080ff",
-        "stroke-width": 3,
-        "stroke-opacity": 1,
-        "name": "🚙 14th to 15th 🚗",
-        "direction": "S",
-        "auto": "true",
-        "kind": "auto"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -122.42224752902985,
-            37.76804747768418
-          ],
-          [
-            -122.42209732532501,
-            37.76656326864002
-          ],
-          [
-            -122.42245674133301,
-            37.766544185758356
           ]
         ]
       }
@@ -1398,6 +1108,28 @@
           [
             -122.42227166891097,
             37.76824466321554
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#3a88fe",
+        "stroke-width": 5,
+        "stroke-opacity": 1,
+        "kind": "auto"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.42225289344788,
+            37.76805595879313
+          ],
+          [
+            -122.42071196436882,
+            37.75221685307716
           ]
         ]
       }

@@ -90,10 +90,10 @@
         var legend = L.control({ position: "bottomleft" });
         legend.onAdd = function(map) {
           var div = L.DomUtil.create("div", "legend");
-          div.innerHTML += "<h4>Valencia Bikeway Proposal!<br> alternating one-way for cars</h4>";
+          div.innerHTML += "<h4>Valencia Bikeway Proposal!<br> (Everyone gets a lane)</h4>";
 //           div.innerHTML += '<i style="background:' + x.config.global.plasma[7] + '"></i><span>120K+/sq.mi</span><br>';
           div.innerHTML += '<i class="line" style="background:green"></i><span>two-way protected bikelane</span><br>';
-          div.innerHTML += '<i class="line" style="background:blue"></i><span>autos (alternating one-way)</span><br>';
+          div.innerHTML += '<i class="line" style="background:blue"></i><span>autos (one-way)</span><br>';
           div.innerHTML += '<i class="line" style="background:aqua"></i><span>school loading island</span><br>';
           div.innerHTML += '<i class="line" style="background:orange"></i><span>parklet/public space</span><br>';
           div.innerHTML += '<i class="line" style="background:yellow"></i><span>commerical/loading/rideshare</span><br>';

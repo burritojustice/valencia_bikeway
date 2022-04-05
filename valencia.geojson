@@ -1118,7 +1118,8 @@
         "stroke": "#3a88fe",
         "stroke-width": 5,
         "stroke-opacity": 1,
-        "kind": "auto"
+        "kind": "auto",
+        "direction": "S"
       },
       "geometry": {
         "type": "LineString",

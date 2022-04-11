@@ -1119,7 +1119,8 @@
         "stroke-width": 5,
         "stroke-opacity": 1,
         "kind": "auto",
-        "direction": "S"
+        "direction": "S",
+        "name": "one-way traffic (southbound)"
       },
       "geometry": {
         "type": "LineString",
